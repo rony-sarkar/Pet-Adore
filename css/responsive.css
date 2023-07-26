@@ -1,0 +1,339 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .feedback {
+        height: 200px;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 5px 0 12px;
+    }
+
+    .service-left {
+        font-size: 16px;
+    }
+
+    .pro-content {
+        margin-top: 30px;
+    }
+
+    .single-care h3 {
+        font-size: 15px;
+    }
+
+    .feedback {
+        padding: 0 10px;
+        height: 224px;
+    }
+
+    .feedback h3 {
+        font-size: 16px;
+    }
+
+    .single-care {
+        text-align: center;
+    }
+
+    .scb::before {
+        top: -64px;
+    }
+
+    .sub-btn {
+        margin: 10px 0 0;
+    }
+
+    .footer-top {
+        padding: 20px 0;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+
+    body,
+    .wel-come h4,
+    .support p,
+    .service-right a,
+    .tab-section p,
+    .single-care p,
+    .footer-area p,
+    .pro-content ul li,
+    .table_new tr td {
+        font-size: 13px;
+    }
+
+    .header-area p {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .tr img {
+        width: 150px;
+    }
+
+    .single-care i {
+        width: 43px;
+        height: 43px;
+        line-height: 43px;
+    }
+
+    .single-care img {
+        width: 43px;
+        height: 43px;
+    }
+
+    .all-slider,
+    figure.slider figure {
+        height: auto;
+    }
+
+    .sec-title h3 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .feature-pro-info {
+        margin-bottom: 10px;
+    }
+
+    .feedback {
+        padding: 10px;
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .hbg p,
+    .tr {
+        text-align: center;
+    }
+
+    .tr img {
+        margin-top: 10px;
+    }
+
+    .logo {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .service-left {
+        font-size: 16px;
+    }
+
+    .slider-area {
+        margin-bottom: 20px;
+    }
+
+    .dis-heading {
+        margin: 30px 0 0;
+    }
+
+    .box-area h1 {
+        font-size: 16px;
+        padding: 10px;
+        line-height: 1.6;
+    }
+
+    .why-us {
+        width: 100%;
+    }
+
+    .why-us h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .why-us h3 i {
+        transform: rotate(90deg);
+    }
+
+    .wel-come {
+        padding: 10px 0;
+    }
+
+    .wel-come {
+        text-align: center;
+    }
+
+    .support {
+        text-align: center !important;
+    }
+
+    .support h2 {
+        font-size: 18px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+    }
+
+    .pro-title h3 {
+        font-size: 16px;
+    }
+
+    .support-box ul li {
+        width: 100%;
+    }
+
+    .satisfacation {
+        text-align: center;
+    }
+
+    .header-wraper {
+        margin: 20px 0 0;
+    }
+
+    .satisfacation img {
+        width: 80px;
+        margin: 0 10px 10px 0px;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .offer-img {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .box-content {
+        padding: 20px 10px 0;
+    }
+
+    .table_new {
+        width: 100%;
+    }
+
+    .pro-content {
+        font-size: 13px;
+    }
+
+    .table_new tr td {
+        padding: 10px 13px 10px 10px;
+    }
+
+    .pro-content h4 {
+        font-size: 16px;
+    }
+
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .footer-widget.footer-logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .ta {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .copy-right p {
+        font-size: 14px;
+    }
+
+    .offer-img img {
+        margin-left: 0;
+    }
+
+    .pro-features h3 {
+        font-size: 15px;
+    }
+
+    .stock-img {
+        text-align: center;
+    }
+
+    .stock-img img {
+        float: inherit;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .dec-table {
+        width: 100%;
+    }
+
+    .pro-single-img {
+        height: auto;
+    }
+
+    .pro-single-img img {
+        position: inherit;
+    }
+
+    .product-wraper {
+        padding: 0;
+    }
+
+    .csslider > .navigation label {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pro-content h3 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .featured-title h3 {
+        font-size: 20px;
+    }
+
+    .about-info img {
+        margin: 20px 0;
+    }
+
+    .tab-part-area label {
+        margin-right: 0px;
+    }
+
+    .newsletter h3 {
+        font-size: 20px;
+    }
+
+    .newsletter p {
+        font-size: 14px;
+    }
+
+    .care-area .container::before,
+    .care-area .container::after,
+    .scb::before {
+        display: none;
+    }
+
+    .care-area {
+        margin-top: 30px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .service-left,
+    .service-right {
+        width: 100%;
+        text-align: center;
+    }
+}
